@@ -1,0 +1,10 @@
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.titulo{
+    font-family: var(--font-titulo);
+    font-size: 45px;
+    font-weight: 600;
+}

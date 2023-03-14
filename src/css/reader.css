@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 50px;
+    font-size: 20px;
+}
+
+.navegacao{
+    display: flex;
+    gap: 100px;
+}
+
+.navegacao ul{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    font-family: var(--font-conteudo);
+}
+
+.btn-header{
+    padding: 10px 60px ;
+    border-radius: 10px;
+    border: 1px solid;
+    font-family: var(--font-conteudo);
+    background-color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
