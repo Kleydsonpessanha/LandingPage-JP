@@ -3,8 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-    --cor-padrao: #000;
-    --cor-botao: #DA2535;
+    --red: #DA2535;
+    --gray: #616161;
+    --white: #616161;
+    --black: #292929;
+    --white-200: #F3F3F3;
 
 
     --font-titulo: 'Montserrat', sans-serif;

@@ -20,15 +20,10 @@
     padding: 10px 40px;
     border-radius: 10px;
     border: none;
-    background-color: var(--cor-botao);
-    color: #FBFBFB;
+    background-color: var(--red);
     font-family: var(--font-conteudo);
+    color: #FFF;
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
 }
-
-/* .img-sushi img{
-    width: 400px;
-    height: 535px;
-} */
