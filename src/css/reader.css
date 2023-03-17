@@ -124,8 +124,8 @@ header {
     
     
     .nav-list.active {
-    background: url('https://joaobagvanji-portfolio.netlify.app/static/media/bgWhite.79658cadae50b3b16ee5.png');
-    background-color: var(--white-color);
+    
+    background-color: var(--primary-color);
     background-repeat: repeat;
     background-size: cover;
     bottom: 0;
