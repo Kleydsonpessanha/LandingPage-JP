@@ -1,7 +1,15 @@
-.comida-oriental{
+.comida-oriental {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center; 
+    gap: 4rem;
+    flex-wrap: wrap; 
+    padding: 1rem;
+    padding-top: 6rem;
+}
+
+.infor-comida {
+    width: 500px;
 }
 
 .infor-comida h1{
@@ -9,8 +17,8 @@
 }
 
 .infor-comida p{
+    text-align: left;
     font-family: var(--font-conteudo);
-    width: 500px;
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 45px;
@@ -26,4 +34,10 @@
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+}
+
+
+.img-sushi > img {
+    width: 100%;
+    max-width: 300PX;
 }

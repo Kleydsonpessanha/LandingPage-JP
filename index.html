@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content= "width=device-width, user-scalable=no">
   <title>FoodJP</title>
 
   
@@ -15,25 +16,28 @@
   
 </head>
 <body>
+  <header>
+    <nav class="nav-bar">
+       <div class="content-of-logo">
+           <img src="src/imagens/FoodJP.png" alt="" class="image-logo">
+       </div>
+        
+       <div class="mobile-menu">
+         <img src="src/imagens/align-right.png" alt="">
+       </div>
+   
+       <ul class="nav-list">
+           <li class="list"><a href="#" class="link">Inicio</a></li>
+           <li class="list"><a href="#app-profiles" class="link">Cardápio</a></li>
+           <li class="list"><a href="#my-projects" class="link">Sobre</a></li>
+           
+          </ul>
+       
+    </nav>
+ </header>
+
   <main>
-    <header class="header">
-      <div class="logo">
-        <a href="#">
-          <img src="./src/imagens/logo-foodjp.png" alt="logo FoodJP">
-        </a>
-      </div>
-
-      <nav class="navegacao">
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Cardápio</a></li>
-          <li><a href="#">Sobre</a></li>
-        </ul>
-
-        <button class="btn-header">Entrar</button>
-      </nav>
-    </header>
-
+   
     <section class="comida-oriental">
       <div class="infor-comida">
         <h1 class="titulo">Comida Oriental</h1>
@@ -46,6 +50,93 @@
         <img src="./src/imagens/kisspng-sushi-japanese-cuisine-buffet-restaurant-food-office-catering-corporate-catering-san-francis-5bab5b3f1579d9 1.png" alt="Sushi Japanese">
       </div>
     </section>
+
+    <section class="comments-container">
+      <article class="title-container">
+         <h2 class="title">Comentários</h2>
+      </article>
+
+     <section class="comments">
+         <div class="comment-content">
+             <img src="https://images.pexels.com/photos/15787374/pexels-photo-15787374.jpeg" alt="profile-image" class="image-profile">
+             <h4 class="name-person">Carlos Nunes</h4>
+             <p class="comment-text">Ótimo serviço! Encantada com a qualidade dos pratos.</p>
+
+             <div class="evaluation">
+                 <img src="src/imagens/star.png" alt="" class="icon-star">
+                 <img src="src/imagens/star.png" alt="" class="icon-star">
+                 <img src="src/imagens/star.png" alt="" class="icon-star">
+                 <img src="src/imagens/star.png" alt="" class="icon-star">
+                 <img src="src/imagens/star.png" alt="" class="icon-star">
+                 
+             </div>
+         </div>
+
+         <div class="comment-content">
+             <img src="src/imagens/img profile 2.png" alt="profile-image" class="image-profile">
+             <h4 class="name-person">Ricardo França</h4>
+             <p class="comment-text">Não é apenas a comida excelente, o serviço torna a experiência especial.</p>
+
+             <div class="evaluation">
+                 <img src="src/imagens/star.png" alt="" class="icon-star">
+                 <img src="src/imagens/star.png" alt="" class="icon-star">
+                 <img src="src/imagens/star.png" alt="" class="icon-star">
+                <img src="src/imagens/star.png" alt="" class="icon-star">
+                 <img src="src/imagens/star.png" alt="" class="icon-star">
+                 
+             </div>
+         </div>
+     </section>
+ </section>
+
+
+
+<section class="location">
+ <h2 class="title">Localização</h2>
+ <div class="image-of-maps">
+     <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10826.099133855085!2d-41.46571208972469!3d-22.11011958674009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1678843056605!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+     <img src="src/imagens/mapa-rio.png" alt="">
+ </div>
+ <div class="input-search">
+     <form action="">
+
+     <span for="" class="icon"> <i class="ri-map-pin-line"></i> </span>
+     <input type="text" class="search-location input" placeholder="Localização para entrega">
+     <input type="submit" class="search-btn" value="Buscar"> 
+     
+     </form>
+ </div>
+</section>
   </main>
+
+  <footer>
+    <img src="src/imagens/FoodJP.png" alt="">
+ <div class="footer-container">
+            <div class="contact">
+        <h2 class="titles-footer">Contato</h2>
+        <ul class="list-links">
+            <li><a href="" class="link-footer">+55 21 9999-9999</a></li>
+            <li><a href="" class="link-footer">email@gmail.com</a></li>
+        </ul>
+    </div>
+    <div class="about-me">
+        <h2 class="titles-footer">Sobre nós</h2>
+        <ul class="list-links">
+            <li><a href="" class="link-footer">Menu</a></li>
+            <li><a href="" class="link-footer">Valores</a></li>
+            <li><a href="" class="link-footer">Pagina principal</a></li>
+        </ul>
+    </div>
+
+    <div class="work">
+        <h2 class="titles-footer">Serviços</h2>
+        <ul class="list-links">
+            <li><a href="" class="link-footer">Entrega</a></li>
+            <li><a href="" class="link-footer">Retirada</a></li>
+        </ul>
+    </div>
+ </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
