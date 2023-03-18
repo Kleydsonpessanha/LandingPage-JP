@@ -44,7 +44,7 @@ header {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 40px;
     font-family: var(--font-base);
   } 
 
@@ -57,13 +57,13 @@ header {
     flex-direction: column;
     font-weight: 500;
     text-decoration: none;
-    text-transform: uppercase;
+    
     transition: all .3s ease-in-out;
 }
 
 .link:hover {
-    color: var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
+    color: var(--gray-color);
+    border-bottom: 2px solid var(--gray-color);
 }
 
 
@@ -157,10 +157,11 @@ header {
         border-radius: 10px;
         border: 1px solid;
         font-family: var(--font-conteudo);
-        background-color: #FFF;
+        background-color: var(--primary-color);
         font-size: 20px;
         font-weight: 600;
         cursor: pointer;
+         
     } 
 
 
